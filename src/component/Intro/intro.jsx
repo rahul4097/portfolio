@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 import btnImg from "../../assets/cv.png";
 const Intro = () => {
   const onButtonClick = () => {
-    const pdfUrl = "http://localhost:5173/resume.pdf";
+    const pdfUrl = "https://scarlet-noel-42.tiiny.site/";
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = "resume.pdf";
