@@ -36,18 +36,30 @@ const Contact = () => {
       <div id="clients">
         <h1 className="contactPageTitle">My Education</h1>
         <p className="clientsDec">
-        Welcome to my education portfolio, where my academic journey unfolds, reflecting my commitment to learning and growth:
+          Welcome to my education portfolio, where my academic journey unfolds,
+          reflecting my commitment to learning and growth:
         </p>
         <div className="clientImgs">
-          <a href="https://gurugramuniversity.ac.in/"><img src={project1} alt="" className="clientImg" /> <p className="occupation">B.SC(Computer Science)</p></a>
-          <a href="https://academy.hyperverge.org/"><img src={project2} alt="" className="clientImg" /><p className="occupation">Web Development</p></a>
-          <a href="https://www.mensaprojectdhruv.in/"><img src={project3} alt="" className="clientImg" /><p className="occupation">Mensa 6E Scholar</p></a>
+          <a href="https://gurugramuniversity.ac.in/">
+            <img src={project1} alt="" className="clientImg" />{" "}
+            <p className="occupation">B.SC(Computer Science)</p>
+          </a>
+          <a href="https://academy.hyperverge.org/">
+            <img src={project2} alt="" className="clientImg" />
+            <p className="occupation">Web Development</p>
+          </a>
+          <a href="https://www.mensaprojectdhruv.in/">
+            <img src={project3} alt="" className="clientImg" />
+            <p className="occupation">Mensa 6E Scholar</p>
+          </a>
         </div>
       </div>
       <div id="contact">
         <h1 className="contactPageTitle">Contace Me</h1>
         <span className="contactDec">
-        Feel free to reach out to me using any of the methods listed below. Whether you have a question, suggestion, or just want to say hello, I'm always happy to hear from you!
+          Feel free to reach out to me using any of the methods listed below.
+          Whether you have a question, suggestion, or just want to say hello,
+          I'm always happy to hear from you!
         </span>
         <form action="" className="contactForm" ref={form} onSubmit={sendEmail}>
           <input
@@ -72,10 +84,18 @@ const Contact = () => {
             Submit
           </button>
           <div className="links">
-           <a href="https://github.com/rahul4097"><img src={contact1} alt="" className="link" /></a> 
-           <a href="https://www.instagram.com/l_its_me_rahul_l/"><img src={contact2} alt="" className="link" /></a> 
-           <a href="https://www.linkedin.com/in/rahul-kumar-907645266/"><img src={contact3} alt=" " className="link" /></a> 
-           <a href="https://twitter.com/Rahul40008380"><img src={contact4} alt="" className="link" /></a> 
+            <a href="https://github.com/rahul4097">
+              <img src={contact1} alt="" className="link" />
+            </a>
+            <a href="https://www.instagram.com/l_its_me_rahul_l/">
+              <img src={contact2} alt="" className="link" />
+            </a>
+            <a href="https://www.linkedin.com/in/rahul-kumar-907645266/">
+              <img src={contact3} alt=" " className="link" />
+            </a>
+            <a href="https://twitter.com/Rahul40008380">
+              <img src={contact4} alt="" className="link" />
+            </a>
           </div>
         </form>
       </div>
